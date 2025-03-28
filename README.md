@@ -17,7 +17,7 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
 #### 💻 Run the Sniffer
 - The sniffer will capture 100 packets and save them to a .pcap file.
 - You can modify the number of packets by changing: count = 100
-### 🌐 Testing the Sniffer
+#### 🌐 Testing the Sniffer
 #### Open another terminal and generate some network traffic:
 ```bash
  ping google.com               # ICMP packet  
@@ -25,6 +25,7 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
  nslookup example.com          # UDP packet
 ```
 ### 📄 Output
+![Screenshot 2025-03-29 001256](https://github.com/user-attachments/assets/2a2f563b-85aa-47d8-8fee-dca6d12f9acd)
 ### 🔍 Analyze the Packets in Wireshark
 - Open Wireshark.
 - Go to File → Open.
