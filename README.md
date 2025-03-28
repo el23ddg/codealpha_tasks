@@ -80,7 +80,7 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
 ####  SQL Injection Testing
 1. Tested the app manually for SQL injection vulnerabilities by entering SQL payloads in the login form.
 2. In the Username field, try SQL injection payloads:
-```matlab
+```bash
 ' OR '1'='1' --
 ```
 3. Verified that the app properly rejected SQL injection attempts, indicating it was secure.
