@@ -85,7 +85,23 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
 ```
 3. Verified that the app properly rejected SQL injection attempts, indicating it was secure.
 4. Used SQLAlchemy ORM which automatically prevents direct SQL injections.
-
-
-
+#### Bandit Security Testing
+1. Ran Bandit to detect security issues in the code:
+```bash
+  bandit -r .
+```
+2. No major vulnerabilities detected.
+3. Minor warnings related to Flask debug mode, which is safe for development.
+#### Flake8 Linting
+1. Used Flake8 to check for coding style issues:
+```bash
+  flake8 .
+```
+2. Identified minor code formatting issues.
+3. No security vulnerabilities were detected.
+### Conclusion
+- The Flask application is secure against SQL injection due to the use of SQLAlchemy ORM.
+- Passwords are properly hashed with Flask-Bcrypt.
+- Static code analysis with Bandit confirmed no major security vulnerabilities.
+- Flake8 ensured clean and consistent code formatting.
 
