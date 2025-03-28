@@ -70,8 +70,13 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
 ```cpp
    http://127.0.0.1:5000
 ```
-
-
+### 🔥 Tests Performed
+#### Flask-Bcrypt Testing
+1. Verified that passwords were securely hashed before being stored in the database.
+2. Used Flask shell to query and verify that the password was saved as a hashed string, not in plaintext.
+3. Test Steps:
+- Registered a user through the web interface.
+- Opened Flask shell and queried the user table to confirm the hashed password.
 
 
 
