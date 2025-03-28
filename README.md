@@ -13,3 +13,35 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
   pip install scapy
   pip install colorama
 ```
+### 🚀 Usage
+#### 💻 Run the Sniffer
+- The sniffer will capture 100 packets and save them to a .pcap file.
+- You can modify the number of packets by changing: count = 100
+### 🌐 Testing the Sniffer
+#### Open another terminal and generate some network traffic:
+```bash
+ ping google.com               # ICMP packet  
+ curl http://example.com       # TCP packet  
+ nslookup example.com          # UDP packet
+```
+### 📄 Output
+### 🔍 Analyze the Packets in Wireshark
+- Open Wireshark.
+- Go to File → Open.
+- Select the captured_packets.pcap file.
+- Analyze the captured packets with filters, detailed protocol info, and visualizations.
+### 🔥 Customization Ideas (add more features)
+- Filtering by specific protocols or IP addresses.
+- Adding payload analysis to display raw packet data.
+- Running the sniffer continuously by removing the count limit.
+- Exporting logs to a text or CSV file for further analysis.
+
+
+
+
+
+
+
+
+
+
