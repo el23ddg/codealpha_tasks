@@ -24,8 +24,9 @@ A simple Python-based network sniffer that captures and displays TCP, UDP, ICMP,
  curl http://example.com       # TCP packet  
  nslookup example.com          # UDP packet
 ```
-### 📄 Output
+### 📄 Output (terminal and wireshark)
 ![Screenshot 2025-03-29 001256](https://github.com/user-attachments/assets/2a2f563b-85aa-47d8-8fee-dca6d12f9acd)
+![Screenshot 2025-03-29 001520](https://github.com/user-attachments/assets/88377afd-a624-4bab-afd0-5f07d7d29ee0)
 ### 🔍 Analyze the Packets in Wireshark
 - Open Wireshark.
 - Go to File → Open.
